@@ -4,7 +4,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 import "./contact.css";
 import  { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
   const form = useRef();
