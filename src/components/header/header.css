@@ -4,11 +4,10 @@ header{
     overflow: hidden;
 }
 
-.header__container{
-    text-align: center;
-    height: 100%;
+.header__container {
+    height: 45%;
     position: relative;
-
+    text-align: center;
 }
 .CTA{
     margin-top: 2.5rem;
@@ -23,7 +22,7 @@ header{
     position: absolute;
     gap: 0.8rem;
     left: 15rem;
-    bottom: 0.5rem;
+    bottom: -17.5rem;
 }
 .header__socials::after{
     content: "";
@@ -45,7 +44,7 @@ header{
 .scroll__down{
     position:absolute;
     right: 5.5rem;
-    bottom: 2rem;
+    bottom: -15rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size:0.9rem;
@@ -55,9 +54,17 @@ header{
     header{
         height:68vh;
     }
-    .header__socials{
-        left: 9rem;
-        bottom: 2rem;
+    .header__socials {
+        left: 6rem;
+        bottom: -12rem;
+    }
+    .scroll__down {
+        position: absolute;
+        right: 1.5rem;
+        bottom: -11rem;
+        transform: rotate(90deg);
+        font-weight: 300;
+        font-size: 0.9rem;
     }
 
 }

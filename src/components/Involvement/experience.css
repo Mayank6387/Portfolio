@@ -41,13 +41,16 @@
     .experience__container{
         grid-template-columns: 1fr;
     }
-    .experience__container>div{
-        width: 80%;
+    .experience__container>div {
+        width: 79%;
         padding: 2rem;
-        margin: 0 auto;
+        margin: 0px 6rem;
     }
     .experience__content{
         padding: 1rem;
+    }
+    section{
+        height:69vh;
     }
 }
 

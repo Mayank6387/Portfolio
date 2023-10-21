@@ -8,6 +8,10 @@
   list-style: none;
   text-decoration: none;
 }
+section{
+  margin-top: 8rem;
+  height: 72vh;
+}
 
 :root{
   --color-bg:#1f1f38;
@@ -49,10 +53,7 @@ h1,h2,h3,h4,h5{
 h1{
   font-size: 2.5rem;
 }
-section{
-  margin-top: 8rem;
-  height: 100vh;
-}
+
 section>h2,section>h5{
   text-align:center;
   color: var(--color-light);
