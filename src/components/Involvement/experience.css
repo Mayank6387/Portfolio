@@ -49,8 +49,8 @@
     .experience__content{
         padding: 1rem;
     }
-    section{
-        height:69vh;
+    section {
+        height: 115vh;
     }
 }
 
@@ -61,9 +61,10 @@
     .experience__container{
         gap: 1rem;
     }
-    .experience__container>div{
-        width:100%;
-        padding: 2rem 1rem;
+    .experience__container>div {
+        width: 70%;
+        padding: 1rem 2rem;
+        margin: 0rem 7rem;
     }
     .experience__content {
         padding: 0rem;
