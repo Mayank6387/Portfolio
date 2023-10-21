@@ -34,12 +34,11 @@ nav a.active{
         background: rgba(0,0,0,0.3);
         width: max-content;
         display: block;
-        padding: 0.7rem 3.2rem;
+        padding: 0.7rem 1.2rem;
         z-index: 2;
         position: fixed;
-        left: 11rem;
+        left: 13rem;
         transform: translateX(-50%);
-        bottom: 0.3rem;
         display: flex;
         gap: 1.2rem;
         border-radius: 3rem;

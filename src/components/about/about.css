@@ -88,6 +88,9 @@
       width: 62%;
       margin:0 auto 3rem;
    }
+   section{
+      height: 100vh;
+   }
    img {
       position: relative;
       width: 64%;
@@ -107,6 +110,8 @@
   }
    .about__cards{
       gap: 1rem;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
    }
    .about__contact{
       text-align: center;

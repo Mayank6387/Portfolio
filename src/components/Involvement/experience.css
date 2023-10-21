@@ -49,9 +49,6 @@
     .experience__content{
         padding: 1rem;
     }
-    section {
-        height: 100vh;
-    }
 }
 
 @media screen and (max-width:640px){
