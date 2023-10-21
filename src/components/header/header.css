@@ -69,12 +69,21 @@ header{
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:640px) {
     header{
         height: 100vh;
     }
+    h1{
+        font-size: 1.3rem;
+    }
     .header__socials,.scroll__down{
         display: none;
+    }
+    .header__container {
+        height: 45%;
+    }
+    .header__container {
+        right:1rem;
     }
     
 }

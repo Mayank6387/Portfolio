@@ -61,9 +61,27 @@ input,textarea{
 
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
     .container.contact__container{
         width: var(--container-width-sm);
+    }
+    .experience__container {
+        gap: 1rem;
+        position: relative;
+        right: 9rem;
+    }
+    .experience__container>div {
+        width: 68%;
+        padding: 1rem 1rem;
+        margin: 0px 5rem;
+    }
+
+    section {
+        height: 130vh;
+    }
+    .contact__options, form {
+        position: relative;
+        right: 11rem;
     }
 }
 

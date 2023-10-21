@@ -54,7 +54,10 @@
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
+    section>h2 {
+        margin-top: 0rem;
+    }
     .experience__container{
         gap: 1rem;
     }

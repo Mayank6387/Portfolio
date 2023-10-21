@@ -83,24 +83,35 @@
 }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
    .about__me{
-      width: 65%;
+      width: 62%;
       margin:0 auto 3rem;
    }
+   img {
+      position: relative;
+      width: 62%;
+      object-fit: cover;
+      left: 2rem;
+  }
    .about__contact p {
       margin: 4rem 6px 2.5rem;
   }
-   
 
+  .about__container {
+   gap:0%;
+   display: flex;
+  }
+  section {
+   height: 125vh;
+  }
    .about__cards{
-      grid-template-columns:1fr 1fr;
       gap: 1rem;
    }
    .about__contact{
       text-align: center;
    }
-   .about__contact p{
-      margin: 1.5rem 0;
-   }
+   .about__contact p {
+      margin: 4.5rem 4px;
+  }
 } 
